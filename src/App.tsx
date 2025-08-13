@@ -1,7 +1,7 @@
 import { APITester } from "./APITester";
 import "./index.css";
 
-import logo from "./logo.svg";
+import logo from "./SVG/anime.svg";
 
 export function App() {
   return (
