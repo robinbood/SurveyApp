@@ -1,4 +1,5 @@
 import { useLocation,Link } from "react-router"
+import "./CSS/navbar.css";
 interface Navbar {
     path:string,
     label:string
@@ -13,7 +14,7 @@ const Navbar = () => {
         { label: "About",path: "/about"}
     ]
     return (
-        <nav>
+        <nav >
             {navItems.map((item : Navbar) => {
                 const isActive: boolean = location.pathname === item.path
                 return (
