@@ -43,3 +43,4 @@ bun run dev
 
 ---
 *An ongoing project focused on creating practical survey solutions.*
+**update**: i actually achieved what i wanted to and now i'm gonna be creating something impactful,stay tuned
