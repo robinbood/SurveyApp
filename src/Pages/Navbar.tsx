@@ -1,5 +1,5 @@
 import { useLocation,Link } from "react-router"
-import "./CSS/navbar.css";
+import "../CSS/navbar.css" 
 interface Navbar {
     path:string,
     label:string
